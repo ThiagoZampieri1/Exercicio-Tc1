@@ -70,5 +70,17 @@ public class Teste extends TestCase{
 		assertEquals(retornoEsperado, retorno);
 	}
 	
+	@Test
+	public void testApagarLampadaA() {
+		int ia = 1;
+		int ib = 0;
+		int fa = 0;
+		int fb = 0;
+		
+		int retornoEsperado = 1;
+		
+		int retorno = Main.lampadas(ia, ib, fa, fb);
+		assertEquals(retornoEsperado, retorno);
+	}
 	
 }
